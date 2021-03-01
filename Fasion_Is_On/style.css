@@ -1,0 +1,354 @@
+body {
+  background: linear-gradient(178deg, #effaff, #f2ffff) !important;
+}
+
+body::-webkit-scrollbar {
+  background: linear-gradient(51deg, #ff2626, #bf82ee, #70bdff);
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00dcff, #1000ff);
+  border-radius: 30px;
+}
+
+
+/* Header Section   */
+.navbar {
+  background: linear-gradient(14deg, #001dad, #00f3ff) !important;
+}
+
+.logo {
+  width: 225px;
+  height: 51.86px;
+  transition: 1.55s;
+}
+
+.logo:hover {
+  transition: 1.55s;
+  transform: rotateX(360deg);
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-item a {
+  font-family: "Potta One", cursive;
+  color: white !important;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.nav-item a:active {
+  text-decoration: underline;
+}
+
+.nav-item a:current {
+  text-decoration: underline;
+}
+
+.nav-item {
+  margin: 4px !important;
+  border-bottom: 2px solid whitesmoke;
+  border-top: 2px solid #ffffff00;
+  border-left: 2px solid #f5deb300;
+  border-right: 2px solid #f5deb300;
+  transition: 0.55s;
+}
+
+.nav-item:hover {
+  box-shadow: 0 0 20px 0px #000000a2;
+  border-top: 2px solid #ffffff;
+  transition: 0.4s;
+}
+
+.btn-outline-danger {
+  color: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid white;
+}
+
+.extras {
+  width: 250px;
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.extras input {
+  margin: 0 25px 0px 0;
+  display: none;
+}
+
+.extras label {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 47px;
+  height: 45px;
+  margin: 0 15px 0px 0px;
+  border: 2px solid #00000091;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#under-header {
+  display: none;
+  padding: 3px 0px;
+  background: linear-gradient(45deg, #4b00ff, #09ff99);
+}
+
+.options {
+  text-decoration: none;
+  color: #ffffff;
+  margin: auto;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  font-family: inherit;
+}
+
+.options:hover {
+  color: #00ffea;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+
+
+/* Middle Section  */
+.Featured-Product {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.item-heading {
+  margin-top: 15px;
+  margin-left: 30px;
+  font-family: "Yusei Magic", sans-serif;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.Men-Watches {
+  text-shadow: 2px 1px 0px #0053b9;
+  color: #ff0000;
+  border-bottom: 8px solid #ff8d00;
+}
+
+.Women-Watches {
+  text-shadow: 2px 1px 0px #002067;
+  color: #ff6695;
+  border-bottom: 8px solid #dc003d;
+}
+
+.card-body span {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 6px 0px;
+  color: red;
+  font-family: sans-serif;
+}
+
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-body a {
+  color: #fff;
+  background: linear-gradient(190deg, #ff57d3, #0014ff);
+  border-color: #ffffff;
+  display: block;
+}
+
+.card-body a:hover {
+  background: linear-gradient(380deg, #ff0e0e, #0037ff);
+}
+
+.card {
+  transition: 1.25s;
+  transform: rotateY(360deg);
+  width: 15rem;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 40px 0px #0000006e !important;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition: 0.35s;
+}
+
+.card-body h5 {
+  font-size: 1.05rem;
+}
+
+.card img {
+  width: 238px;
+  height: 238px;
+}
+
+.more {
+  height: 418px;
+  width: 240px;
+  display: flex;
+}
+
+.more a {
+  text-decoration: none;
+  display: flex;
+  color: gray;
+  font-size: 2rem;
+  flex-flow: column;
+  margin: 5rem auto;
+  align-items: center;
+  height: 100%;
+}
+
+.more i {
+  font-size: 12rem;
+  text-align: center;
+  margin: -3rem auto;
+  filter: drop-shadow(4px 5px 2px gray);
+  padding: 35% 0%;
+  ;
+}
+
+.more a:hover {
+  transition: 1.55s;
+  transform: rotateY(360deg);
+  color: #9c0000;
+}
+
+.card:focus {
+  transition: 0.8s;
+  transform: rotateY(360deg);
+}
+
+.Men-Shoes {
+  text-shadow: 2px 1px 0px #141619;
+  color: #ff0000;
+  border-bottom: 8px solid #084298;
+}
+
+.Women-Shoes {
+  text-shadow: 2px 1px 0px #ff0404;
+  color: #efff00;
+  border-bottom: 8px solid #980808;
+}
+
+.Women-Dresses {
+  text-shadow: 2px 1px 0px #9e0000;
+  color: #005aff;
+  border-bottom: 8px solid #8f0898;
+}
+
+.Man-Pants {
+  text-shadow: 2px 1px 0px #004e9e;
+  color: #00ff14;
+  border-bottom: 8px solid #15b1e0;
+}
+
+.Women-Pants {
+  text-shadow: 2px 1px 0px #11a200;
+  color: #16b1e0;
+  border-bottom: 8px solid #3bff4a;
+}
+
+.Men-Shirts {
+  text-shadow: 2px 1px 0px #141619;
+  color: #ff0000;
+  border-bottom: 8px solid #084298;
+}
+
+.Men-T-Shirts {
+  text-shadow: 2px 1px 0px #ff0404;
+  color: #efff00;
+  border-bottom: 8px solid #980808;
+}
+
+.Women-T-Shirts {
+  text-shadow: 2px 1px 0px #0000bf;
+  color: #f35d8d;
+  border-bottom: 8px solid #0f9bff;
+}
+
+@media (max-width: 500px) {
+  .Men-Watches {
+    margin-top: 65px;
+  }
+
+  .card-body h5 {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    width: 9rem;
+  }
+
+  .card img {
+    width: 142px;
+    height: 142px;
+  }
+
+  .card-title {
+    height: 6rem;
+  }
+
+  .more i {
+    font-size: 7rem;
+    text-align: center;
+    margin: -3rem auto;
+    filter: drop-shadow(4px 5px 2px gray);
+    padding: 60% 0%;
+  }
+
+  .more a {
+    text-decoration: none;
+    display: flex;
+    color: gray;
+    font-size: 1.3rem;
+    flex-flow: column;
+    margin: 8rem auto;
+    align-items: center;
+    height: 100%;
+  }
+
+  .extras {
+    display: none;
+  }
+
+  .Header {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    margin-top: -1rem;
+  }
+
+  #under-header {
+    display: flex !important;
+    width: 100%;
+    overflow-x: auto;
+    overflow: scroll;
+  }
+
+  .options {
+    font-size: 0.8rem;
+    min-width: 120px;
+    text-align: center;
+  }
+
+  #under-header::-webkit-scrollbar {
+    width: 0;
+    height: 0px;
+  }
+
+}
+
+@media (min-width: 900px) {
+  .card-title {
+    height: 4rem;
+  }
+}
