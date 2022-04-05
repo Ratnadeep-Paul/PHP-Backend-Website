@@ -1,0 +1,127 @@
+/* Login, Signup, OTP Page */
+.seller-login-page {
+  background-position: center;
+  background-size: cover !important;
+  background: url("../Img/icons/login-bg.svg");
+  background-repeat: no-repeat;
+  min-height: 25rem;
+}
+
+.seller-login-page .cont-signup {
+  margin-top: 10%;
+  background: #0000007d;
+  padding: 1rem;
+  box-shadow: 0 0 20px rgb(0 0 0 / 34%);
+  backdrop-filter: blur(17px);
+}
+
+.seller-login-page .cont-signup h1 {
+  color: rgb(138 211 255);
+}
+
+.seller-login-page .form-control {
+  color: #e7e7e7;
+  background-color: #0006;
+}
+
+.seller-login-page .form-control:focus {
+  background-color: rgba(0, 0, 0, 0.493);
+  color: #e7e7e7;
+}
+
+.cont-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.336);
+  width: 50%;
+}
+
+.signup {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.signup form {
+  width: 100%;
+}
+
+.sign-lbl {
+  color: whitesmoke;
+}
+
+.sign-form {
+  color: antiquewhite;
+}
+
+.sign-form:hover {
+  transform: rotateY(0deg);
+  box-shadow: 0 0 20px teal;
+  color: rgb(23, 0, 65);
+}
+
+.sign-btn {
+  width: 100%;
+  background-color: rgb(0 61 82);
+  transition: 0.25s;
+  border: 0px;
+}
+
+.sign-body {
+  background: #e4e4e4;
+}
+
+.cont-signup h1 {
+  color: rgb(0 40 64);
+  /* font-size: 3rem; */
+  margin-bottom: -0.2rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.1rem;
+  text-shadow: 0px -1px 1px #000000;
+}
+
+.sign-anim {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.sign-line {
+  background: linear-gradient(45deg, rgb(5 0 78), rgb(90 0 75));
+  height: 5px;
+  display: block;
+  border-radius: 2rem;
+  animation: sign-anim 3s linear infinite;
+  justify-content: flex-start;
+  box-shadow: 0 0 6px #ffffff25;
+}
+
+.otp-entry .form-control {
+  width: 100% !important;
+}
+
+.form-elements {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 680px) {
+  .cont-signup {
+    width: 90%;
+  }
+  
+  .seller-login-page {
+    background: #001d85;
+  }
+}

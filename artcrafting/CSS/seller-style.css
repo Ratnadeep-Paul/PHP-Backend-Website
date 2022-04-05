@@ -1,0 +1,759 @@
+/* Fonts Addition */
+@font-face {
+  font-family: Limon-milk;
+  src: url("../Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../Fonts/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Oregla;
+  src: url("../Fonts/Oregla.ttf");
+}
+
+@font-face {
+  font-family: Righteous;
+  src: url("../Fonts/Righteous-Regular.ttf");
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  background: rgb(255, 255, 255);
+  width: 0.4rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff8201;
+}
+
+/* Logo */
+body nav {
+  background: linear-gradient(45deg, #407bff, #3362cc);
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  max-width: 15rem;
+  margin-left: 0.5rem;
+  border: 2px solid red;
+  color: rgb(250, 229, 0);
+  background: #ff0000;
+  text-align: center;
+  border-radius: 2px;
+  font-family: "Limon-milk", sans-serif;
+  padding: 0.3rem 0.65rem;
+  font-size: 1.2rem;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.logo a {
+  color: #fae401;
+}
+
+/* .logo a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.logo strong {
+  transition: 0.35s;
+  color: white;
+}
+
+.logo:hover {
+  transition: 0.35s;
+  border-color: white;
+  background: white;
+  color: #0008ff9f;
+}
+
+.logo:hover > a strong {
+  color: #0008ff;
+  transition: 0.35s;
+} */
+
+.account-login {
+  margin: auto 1rem auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-login img {
+  width: 1.2rem;
+  filter: invert(1);
+  margin: auto 0.25rem;
+}
+
+.account-login a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: sans-serif;
+  transition: 0.25s;
+}
+
+.account-login a:hover {
+  transition: 0.25s;
+  color: rgb(229, 255, 0);
+}
+
+/* Home Section */
+.home-body {
+  background: #fffefb;
+}
+
+.top-home {
+  width: 100%;
+  display: flex;
+  color: #3362cc !important;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top-home > div {
+  width: 45%;
+  /* padding: 1rem; */
+  font-family: "Righteous";
+  margin: 1rem auto auto 1rem;
+}
+
+.top-home > div h1 {
+  font-size: 3.5rem;
+  font-family: "Limon-milk";
+}
+
+.top-home > div h1 strong {
+  color: #00ca76;
+}
+
+.top-home > div h3 {
+  font-size: 2.3rem;
+}
+
+.top-home > div h5 {
+  font-family: "Rubik";
+  font-size: 1.85rem;
+}
+
+.top-home > div p {
+  font-family: "Rubik";
+}
+
+.top-home > div p a {
+  color: rgb(250, 150, 0);
+}
+
+.top-home img {
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.top-home .cards {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top-home .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  margin: auto;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 15rem;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 10%);
+}
+
+.top-home .cards .card img {
+  width: 5rem;
+  margin: auto;
+}
+
+.top-home .cards .card p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Phone Responsive */
+@media screen and (max-width: 1010px) {
+  .top-home {
+    width: 100%;
+    display: flex;
+    color: #3362cc !important;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .top-home > div {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Righteous";
+    margin: auto;
+  }
+
+  .top-home > div h1 {
+    font-size: 2.5rem;
+    font-family: "Limon-milk";
+  }
+
+  .top-home > div h3 {
+    font-size: 2rem;
+  }
+
+  .top-home > div h5 {
+    font-family: "Rubik";
+    font-size: 1.65rem;
+  }
+
+  .top-home img {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+  .top-home .cards .card {
+    min-height: 20rem;
+  }
+}
+
+/* Instruction Section */
+.instruction {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.instruction h2 {
+  color: #ff4700;
+  border-bottom: 2px solid;
+  font-family: "Righteous";
+}
+
+.instruction .text-istruction {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.instruction .text-istruction p {
+  padding: 0.5rem;
+  max-width: 100%;
+  font-family: "Rubik";
+  color: #0008ff;
+  margin-bottom: 0.5rem;
+}
+
+.instruction .text-istruction p a {
+  color: #ff0000;
+}
+
+/* User Account  */
+.account-page nav {
+  background: linear-gradient(45deg, #fff700, #ff7b00);
+}
+
+.account-page {
+  background-color: #f5f6f1;
+}
+
+.account {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.account .left {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+.account .left .account-left-options {
+  background-color: white;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 10%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.account-option-selector {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-left-options a,
+.logout {
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  padding: 0.6rem 0;
+  transition: 0.25s;
+  font-weight: 600;
+}
+
+.account .btn.focus,
+.account .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+}
+
+.account-left-options a:hover {
+  background: #fc8c02 !important;
+  color: white;
+  transition: 0.25s;
+}
+
+.logout:hover {
+  background: #fc1f02 !important;
+  color: white;
+  transition: 0.25s;
+}
+
+.option-active {
+  background: #fc8c02 !important;
+  color: white;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
+.account .right {
+  background-color: white;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  width: 68%;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.account .right h2 {
+  font-size: 2rem;
+  color: #ff7600;
+  font-family: "Rubik";
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.account tr td:nth-child(1) {
+  font-weight: 600;
+}
+
+.account .order-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.account .orders {
+  width: 100%;
+  background-color: #fff2b4;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: 0.25s;
+  flex-direction: row;
+}
+
+.account .orders:hover {
+  transition: 0.25s;
+  box-shadow: 0 0 20px #fff7009e;
+}
+
+.account .orders img {
+  width: 6.5rem;
+  max-width: 6.5rem;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+  max-height: 9rem;
+}
+
+.account .orders .table td {
+  padding: 0.05rem 1rem;
+  padding-left: 0;
+  vertical-align: top;
+  border-top: 1px solid #00000000;
+}
+
+.account .orders .order-short-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.account .orders .orderinfo-btn {
+  color: darkblue;
+  background: transparent;
+  border-color: transparent;
+  text-align: left;
+  padding: 0 0;
+  font-weight: bolder;
+  border-radius: 2px;
+  font-family: "Rubik", sans-serif;
+}
+
+.account .orders .order-short-details h6 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid #794300c7;
+  padding-bottom: 0.25rem;
+  color: #754100;
+}
+
+.account .orders .order-short-details .table {
+  width: 100%;
+  margin-bottom: 0rem;
+  color: #212529;
+}
+
+.account .orders .modal .btn {
+  width: 49%;
+}
+
+.account .orders .modal-custom .btn {
+  width: 32%;
+}
+
+.account .menu {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 2.5rem;
+  padding: 0.25rem;
+  background-color: rgb(255 255 255 / 46%);
+  border-radius: 2px;
+  filter: invert(1);
+  transition: 0.25s;
+}
+
+.dashboard-content .account-name {
+  color: #fc8c02;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  border-bottom: 2px solid;
+  font-family: "Rubik";
+  font-size: 1.3rem;
+}
+
+.dashboard-content .account-name h2 {
+  border-bottom: 0;
+  margin-right: 0.54rem;
+}
+
+.dashboard-content .top-dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding: 1rem; */
+  padding-top: 1rem;
+}
+
+.dashboard-content .top-dashboard .dashboard-card {
+  width: 24.5%;
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  background: #fff9b4;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  color: brown;
+  font-family: "Limon-milk";
+  min-height: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-content .top-dashboard .dashboard-card p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #0000009e;
+  font-family: "Rubik";
+  text-transform: uppercase;
+}
+
+.account .right .products {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.account .right .product-card {
+  width: 32%;
+  margin: 0.25rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffe4404d;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 10%);
+  border: 1px solid rgba(134, 134, 134, 0.212);
+  border-radius: 2px;
+  transition: 0.25s;
+  padding: 1rem;
+  text-align: center;
+}
+
+.account .right .product-card:hover {
+  transition: 0.25s;
+  border: 1px solid transparent;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 26%);
+}
+
+.account .right .product-card span {
+  display: block;
+  width: 100%;
+}
+
+.account .right .product-card h5 {
+  color: brown;
+  font-family: "Limon-milk";
+}
+
+.account .right .product-card-img {
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(56, 53, 53, 0.185);
+}
+
+.account .right .product-card .btn {
+  width: 100%;
+  margin: 0.25rem 0;
+}
+
+.account .right .product-card .form-control {
+  text-align: center;
+  color: brown;
+}
+
+.account .right .add-product .left {
+  width: 50%;
+}
+
+.account .right .add-product form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.account .right .add-product .left img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.account .right .customized {
+  padding: 1rem;
+}
+
+.account .right .customized label {
+  font-weight: 500;
+}
+
+.account .right .customized .btn {
+  width: 100%;
+}
+
+.dashboard-content .top-dashboard .dashboard-card-link {
+  width: 50%;
+}
+
+/* iPad Responsive */
+@media screen and (max-width: 1012px) {
+  .dashboard-content .top-dashboard .dashboard-card {
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dashboard-content .top-dashboard .dashboard-card h3 {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+}
+
+/* Phone Responsive */
+@media screen and (max-width: 650px) {
+  .account .menu {
+    display: block;
+  }
+
+  .account #menu-left {
+    display: none;
+    position: absolute !important;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .account .right {
+    margin: auto;
+    width: 100%;
+  }
+
+  .account-page .account-login {
+    display: none !important;
+  }
+
+  .account .edit-left {
+    display: none;
+  }
+
+  .dashboard-content .top-dashboard .dashboard-card {
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.15rem;
+    min-height: 6.5rem;
+  }
+
+  .product-card {
+    width: 48% !important;
+  }
+
+  .add-product form {
+    flex-direction: column;
+  }
+
+  .add-product .left {
+    width: 100%;
+  }
+
+  .add-product .right {
+    width: 100%;
+  }
+
+  .admin-dashboard .top-dashboard .dashboard-card {
+    min-height: 9rem;
+  }
+
+  .account .right .add-product form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .account .right .add-product .left {
+    width: 100%;
+  }
+}
+
+/* Admin Panel */
+.admin-dashboard .top-dashboard .dashboard-card {
+  width: 48%;
+  margin-bottom: 0.5rem;
+  min-height: 8rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-dashboard .top-dashboard .dashboard-card .btn {
+  width: 100%;
+}
+
+.admin-account .right .sellers {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.admin-account .right .sellers .seller {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffd90044;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  margin-bottom: 0.5rem;
+}
+
+.admin-account .right .sellers .seller:hover {
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.192);
+}
+
+.admin-account .right .sellers .seller p {
+  margin: 0;
+  text-align: center;
+}
+
+.admin-account .right .sellers .seller .left {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 40%;
+  margin: auto auto auto 1rem;
+}
+
+.admin-account .right .sellers .seller .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  width: 60%;
+}
+
+.admin-account .right .sellers .seller .right-approve {
+  margin: auto 0rem auto auto;
+  width: auto;
+}
+
+.admin-account .right .sellers .seller .right-approve .btn {
+  margin: 0 0.5rem;
+}
+
+.admin-account .right .sellers .seller .right .seller-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 1rem auto auto;
+  background: #ff7b0052;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 2px;
+  width: -webkit-fill-available;
+}
+
+/* Phone Responsive */
+@media screen and (max-width: 650px) {
+  .admin-dashboard .top-dashboard .dashboard-card {
+    width: 100%;
+  }
+}
